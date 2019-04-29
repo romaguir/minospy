@@ -54,4 +54,6 @@ setup(name='minospy',
       url='www.github.com/romaguir/minospy',
       packages=find_packages(),
       license='GNU',
+      test_suite='nose.collector',
+      tests_require=['nose'],
       ext_modules = [minos_bran,eigcon,green,syndat])
