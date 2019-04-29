@@ -27,6 +27,8 @@ c**************************************************************************
       include 'fdb/fdb_io.h'
       include 'green.h'
 c----
+      character*256 xfname1,xdbin,xdbout
+      integer*4 xidout,xitptens
       real*4 a
       common/rcrds/a(6*mseis)
       real*8 rh1
@@ -41,13 +43,17 @@ c----
       character*256 efname
       character*8 ename
       character*2 endian
-      real*8    xdbin,xdbout,xidout,xfname1,xitptens
 c--
       data pi/3.14159265358979d0/            
       data fnorm/1.0e-27/
 c
 c    read input parameters
 c
+      fname1 = xfname1
+      itptens = xitptens
+      dbin = xdbin
+      dbout = xdbout
+      idout = xidout
 c....read in file name within event and moment tensor info
       write(*,*) '============== Program syndat =================='
       write(*,*) 'enter input CMT file name:'

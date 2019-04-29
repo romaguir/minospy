@@ -6,7 +6,7 @@ c meig - maximum total number of eigen functions involved
 c mseis - maximun length of seismogram
 c============================================================
       integer*4 mk
-      parameter (mk=350)
+      parameter (mk=1000)
 c ---
       integer*4 ml
       parameter (ml=6000)

@@ -30,7 +30,9 @@ c      subroutine main(xdbin,xfname3)
       include "fdb/fdb_sitechan.h"
       include "fdb/fdb_wfdisc.h"
 c---
-      real*8 xdbin,xfname3,xfname4,xfmin,xfmax,xiscan,xdbout
+      real*8 xfmin,xfmax
+      character*256 xdbin,xdbout,xfname3,xfname4
+      integer*4 xiscan
       real*4 scalrs(8)
       real*8 co,si,c1,c2,s1,s2,z,zp,cz,sz,caz,saz,prp
       common/dheadX/d0,th,ph,jy,jd,jh,jm,sec,tstart
@@ -62,6 +64,14 @@ c--- equivalence and data ---
 c
 c    read input parameters
 c
+      dbin = xdbin
+      fname3 = xfname3
+      fname4 = xfname4
+      fmin = xfmin
+      fmax = xfmax
+      iscan = xiscan
+      dbout = xdbout
+
 c....read in dbname with static relations: sta, stachan
       write(*,*) '============= Program green ===================='
       write(*,*) 'enter path to db with sta & stachan:'
