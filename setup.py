@@ -45,6 +45,10 @@ syndat = Extension(name = 'minospy.syndat',
                   'src/fdb/fdb_eigen.h',
                   'src/fdb/swapn.c',
                   'src/fdb/config.h'])
+cucss2sac = Extension(name = 'minospy.cucss2sac',
+            sources = ['src/utils/py_cucss2sac.c',
+                  'src/utils/swap.c',
+                  'src/utils/cucss2sac.h'])
 
 setup(name='minospy',
       version='0.1',
@@ -56,4 +60,4 @@ setup(name='minospy',
       license='GNU',
       test_suite='nose.collector',
       tests_require=['nose'],
-      ext_modules = [minos_bran,eigcon,green,syndat])
+      ext_modules = [minos_bran,eigcon,green,syndat,cucss2sac])

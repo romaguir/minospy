@@ -1,0 +1,3 @@
+build/temp.macosx-10.6-x86_64-2.7/src/fdb/swapn.o: src/fdb/swapn.c \
+  src/fdb/config.h
+commandline: -Ibuild/src.macosx-10.6-x86_64-2.7/build/src.macosx-10.6-x86_64-2.7/minospy -I/Users/rossmaguire/anaconda2/lib/python2.7/site-packages/numpy/core/include -I/Users/rossmaguire/anaconda2/include/python2.7 -I/Users/rossmaguire/anaconda2/include/python2.7 -c-Ibuild/src.macosx-10.6-x86_64-2.7/build/src.macosx-10.6-x86_64-2.7/minospy -I/Users/rossmaguire/anaconda2/lib/python2.7/site-packages/numpy/core/include -I/Users/rossmaguire/anaconda2/include/python2.7 -I/Users/rossmaguire/anaconda2/include/python2.7

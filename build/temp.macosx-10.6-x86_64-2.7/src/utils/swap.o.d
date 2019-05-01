@@ -1,0 +1,2 @@
+build/temp.macosx-10.6-x86_64-2.7/src/utils/swap.o: src/utils/swap.c
+commandline: -I/Users/rossmaguire/anaconda2/lib/python2.7/site-packages/numpy/core/include -I/Users/rossmaguire/anaconda2/include/python2.7 -I/Users/rossmaguire/anaconda2/include/python2.7 -c-I/Users/rossmaguire/anaconda2/lib/python2.7/site-packages/numpy/core/include -I/Users/rossmaguire/anaconda2/include/python2.7 -I/Users/rossmaguire/anaconda2/include/python2.7

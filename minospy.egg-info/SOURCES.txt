@@ -20,3 +20,7 @@ src/fdb/fdb_wfdisc.h
 src/fdb/fdbs.f
 src/fdb/swapn.c
 src/time/time.f
+src/utils/cucss2sac.c
+src/utils/cucss2sac.h
+src/utils/py_cucss2sac.c
+src/utils/swap.c

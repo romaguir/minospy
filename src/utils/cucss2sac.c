@@ -19,12 +19,10 @@
  * CSS to SAC converter. Works only for t4 and f4 formats
  ***************************************************************************
  */
-#include <stdio.h>
-#include <stdlib.h>
+#include <Python.h>
 #include <sys/types.h>
 #include <dirent.h>
 #include <string.h>
-#include <math.h>
 #include "cucss2sac.h"
 
 int main(int argc, char *argv[])
